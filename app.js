@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
   res.send('Hello, DevOps');
 });
 
+//Defining the port
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
